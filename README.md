@@ -1,4 +1,4 @@
-Mini Aspire API
+**Mini Aspire API**
 
 Mini Aspire API is a mock loan app it has functionalities such as:
 
@@ -10,14 +10,15 @@ Mini Aspire API is a mock loan app it has functionalities such as:
     Repayment is made to the sheduled repaymets with any amount.
     If all the repayment completed the repayment and loan status changed to Paid.
 
-Installation
+**Installation**
 
-Follow Laravel installation here.
+Follow Laravel installation.
 
-Set up database
+    Set up database
+    Run composer install
+    Run php artisan passport:install
+    Run php artisan migrate
+    Run php artisan serve
 
-php artisan migrate
-
-php artisan serve
-
-postman collection: https://www.getpostman.com/collections/5bc57c9da457250f8821
+**Postman collection:** 
+https://www.getpostman.com/collections/5bc57c9da457250f8821
